@@ -1,0 +1,6 @@
+Contains wordcloud of different airlines and airports:
+
+Row 0 col 0 => Negative aspects in negative reviews
+Row 0 col 1 => Positive aspects in negative reviews
+Row 1 col 0 => Negative aspects in positive reviews
+Row 1 col 1 => Positive aspects in positive reviews

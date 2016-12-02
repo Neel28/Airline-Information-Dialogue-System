@@ -1,0 +1,9 @@
+@relation DIALOG_UTTERANCES
+@attribute DOC_TEXT string
+@attribute HAS_QUESTION_MARK {true, false}
+@attribute HAS_AFFIRMATIVE {true, false}
+@attribute HAS_NEGATIVE {true, false}
+@attribute STARTING_POS {CC, CD, DT, EX, FW, IN, JJ, JJR, JJS, LS, MD, NN, NNS, NNP, NNPS, PDT, POS, PRP, PRP$, RB, RBR, RBS, RP, SYM, TO, UH, VB, VBD, VBG, VBN, VBP, VBZ, WDT, WP, WP$, WRB, X}
+@attribute ACT_TAG {statement, question, yes, no, other}
+@data
+"Los Angeles",false,false,false,NNP,?

@@ -1,0 +1,405 @@
+{
+    "response": {
+        "kind": "qpxExpress#tripsSearch",
+        "trips": {
+            "kind": "qpxexpress#tripOptions",
+            "tripOption": [
+                {
+                    "kind": "qpxexpress#tripOption",
+                    "id": "MaZkO13cVgHM6Ej1PKcII0001",
+                    "saleTotal": "GBP1647.56",
+                    "pricing": [
+                        {
+                            "baseFareTotal": "GBP1399.00",
+                            "ptc": "ADT",
+                            "saleFareTotal": "GBP1399.00",
+                            "fare": [
+                                {
+                                    "destination": "LAX",
+                                    "basisCode": "Y1N0O4C5",
+                                    "id": "AIwLGnGLRpbOoB9QA7fcSvcaB1xI02LntiKurEibbN2U",
+                                    "carrier": "BA",
+                                    "kind": "qpxexpress#fareInfo",
+                                    "origin": "LON"
+                                }
+                            ],
+                            "refundable": true,
+                            "saleTotal": "GBP1647.56",
+                            "fareCalculation": "LON BA X/E/BCN BA X/E/DUB BA LAX M 1759.37Y1N0O4C5 NUC 1759.37 END ROE 0.79517 FARE GBP 1399.00 XT 73.00GB 14.56UB 7.90JD 0.50OG 1.90QV 2.00UP 6.70UQ 4.40YC 5.60XY 3.20XA 14.30US 114.50YQ",
+                            "saleTaxTotal": "GBP248.56",
+                            "tax": [
+                                {
+                                    "id": "UP_001",
+                                    "chargeType": "GOVERNMENT",
+                                    "country": "IE",
+                                    "kind": "qpxexpress#taxInfo",
+                                    "code": "UP",
+                                    "salePrice": "GBP2.00"
+                                },
+                                {
+                                    "id": "UQ_001",
+                                    "chargeType": "GOVERNMENT",
+                                    "country": "IE",
+                                    "kind": "qpxexpress#taxInfo",
+                                    "code": "UQ",
+                                    "salePrice": "GBP6.70"
+                                },
+                                {
+                                    "id": "XA",
+                                    "chargeType": "GOVERNMENT",
+                                    "country": "US",
+                                    "kind": "qpxexpress#taxInfo",
+                                    "code": "XA",
+                                    "salePrice": "GBP3.20"
+                                },
+                                {
+                                    "id": "XY",
+                                    "chargeType": "GOVERNMENT",
+                                    "country": "US",
+                                    "kind": "qpxexpress#taxInfo",
+                                    "code": "XY",
+                                    "salePrice": "GBP5.60"
+                                },
+                                {
+                                    "id": "YC",
+                                    "chargeType": "GOVERNMENT",
+                                    "country": "US",
+                                    "kind": "qpxexpress#taxInfo",
+                                    "code": "YC",
+                                    "salePrice": "GBP4.40"
+                                },
+                                {
+                                    "id": "US_002",
+                                    "chargeType": "GOVERNMENT",
+                                    "country": "US",
+                                    "kind": "qpxexpress#taxInfo",
+                                    "code": "US",
+                                    "salePrice": "GBP14.30"
+                                },
+                                {
+                                    "id": "OG_001",
+                                    "chargeType": "GOVERNMENT",
+                                    "country": "ES",
+                                    "kind": "qpxexpress#taxInfo",
+                                    "code": "OG",
+                                    "salePrice": "GBP0.50"
+                                },
+                                {
+                                    "id": "JD_001",
+                                    "chargeType": "GOVERNMENT",
+                                    "country": "ES",
+                                    "kind": "qpxexpress#taxInfo",
+                                    "code": "JD",
+                                    "salePrice": "GBP7.90"
+                                },
+                                {
+                                    "id": "QV_001",
+                                    "chargeType": "GOVERNMENT",
+                                    "country": "ES",
+                                    "kind": "qpxexpress#taxInfo",
+                                    "code": "QV",
+                                    "salePrice": "GBP1.90"
+                                },
+                                {
+                                    "id": "GB_001",
+                                    "chargeType": "GOVERNMENT",
+                                    "country": "GB",
+                                    "kind": "qpxexpress#taxInfo",
+                                    "code": "GB",
+                                    "salePrice": "GBP73.00"
+                                },
+                                {
+                                    "id": "UB_001",
+                                    "chargeType": "GOVERNMENT",
+                                    "country": "GB",
+                                    "kind": "qpxexpress#taxInfo",
+                                    "code": "UB",
+                                    "salePrice": "GBP14.56"
+                                },
+                                {
+                                    "kind": "qpxexpress#taxInfo",
+                                    "code": "YQ",
+                                    "id": "YQ_I",
+                                    "chargeType": "CARRIER_SURCHARGE",
+                                    "salePrice": "GBP114.50"
+                                }
+                            ],
+                            "kind": "qpxexpress#pricingInfo",
+                            "latestTicketingTime": "2016-11-29T15:09-05:00",
+                            "passengers": {
+                                "kind": "qpxexpress#passengerCounts",
+                                "adultCount": 1
+                            },
+                            "segmentPricing": [
+                                {
+                                    "kind": "qpxexpress#segmentPricing",
+                                    "segmentId": "GgAseqCvqcdw5ev3",
+                                    "fareId": "AIwLGnGLRpbOoB9QA7fcSvcaB1xI02LntiKurEibbN2U"
+                                },
+                                {
+                                    "kind": "qpxexpress#segmentPricing",
+                                    "segmentId": "GFSacNZ5cv52-6zu",
+                                    "fareId": "AIwLGnGLRpbOoB9QA7fcSvcaB1xI02LntiKurEibbN2U"
+                                },
+                                {
+                                    "kind": "qpxexpress#segmentPricing",
+                                    "segmentId": "GdBivQvuDwTIAARG",
+                                    "fareId": "AIwLGnGLRpbOoB9QA7fcSvcaB1xI02LntiKurEibbN2U"
+                                }
+                            ]
+                        }
+                    ],
+                    "slice": [
+                        {
+                            "kind": "qpxexpress#sliceInfo",
+                            "segment": [
+                                {
+                                    "flight": {
+                                        "number": "2195",
+                                        "carrier": "BA"
+                                    },
+                                    "id": "GFSacNZ5cv52-6zu",
+                                    "leg": [
+                                        {
+                                            "destination": "BCN",
+                                            "duration": 125,
+                                            "destinationTerminal": "1",
+                                            "aircraft": "32A",
+                                            "meal": "Food and Beverages for Purchase",
+                                            "arrivalTime": "2016-11-29T23:15+01:00",
+                                            "departureTime": "2016-11-29T20:10+00:00",
+                                            "id": "LCQW7gefeTOReWvl",
+                                            "mileage": 739,
+                                            "kind": "qpxexpress#legInfo",
+                                            "operatingDisclosure": "OPERATED BY VUELING AIRLINES",
+                                            "origin": "LTN"
+                                        }
+                                    ],
+                                    "duration": 125,
+                                    "bookingCodeCount": 9,
+                                    "kind": "qpxexpress#segmentInfo",
+                                    "cabin": "COACH",
+                                    "bookingCode": "Y",
+                                    "connectionDuration": 695,
+                                    "marriedSegmentGroup": "0"
+                                },
+                                {
+                                    "flight": {
+                                        "number": "8949",
+                                        "carrier": "BA"
+                                    },
+                                    "id": "GgAseqCvqcdw5ev3",
+                                    "leg": [
+                                        {
+                                            "destination": "DUB",
+                                            "duration": 165,
+                                            "originTerminal": "2",
+                                            "destinationTerminal": "2",
+                                            "aircraft": "320",
+                                            "meal": "Food and Beverages for Purchase",
+                                            "arrivalTime": "2016-11-30T12:35+00:00",
+                                            "departureTime": "2016-11-30T10:50+01:00",
+                                            "id": "LMo0ye1enOpCU4QA",
+                                            "mileage": 922,
+                                            "kind": "qpxexpress#legInfo",
+                                            "operatingDisclosure": "OPERATED BY AER LINGUS",
+                                            "origin": "BCN"
+                                        }
+                                    ],
+                                    "duration": 165,
+                                    "bookingCodeCount": 9,
+                                    "kind": "qpxexpress#segmentInfo",
+                                    "cabin": "COACH",
+                                    "bookingCode": "Y",
+                                    "connectionDuration": 145,
+                                    "marriedSegmentGroup": "1"
+                                },
+                                {
+                                    "flight": {
+                                        "number": "6123",
+                                        "carrier": "BA"
+                                    },
+                                    "id": "GdBivQvuDwTIAARG",
+                                    "leg": [
+                                        {
+                                            "destination": "LAX",
+                                            "duration": 665,
+                                            "originTerminal": "2",
+                                            "destinationTerminal": "2",
+                                            "aircraft": "332",
+                                            "meal": "Meal",
+                                            "arrivalTime": "2016-11-30T18:05-08:00",
+                                            "departureTime": "2016-11-30T15:00+00:00",
+                                            "id": "LFcpLD8WR2uF29VM",
+                                            "mileage": 5166,
+                                            "kind": "qpxexpress#legInfo",
+                                            "operatingDisclosure": "OPERATED BY AER LINGUS",
+                                            "origin": "DUB"
+                                        }
+                                    ],
+                                    "duration": 665,
+                                    "bookingCodeCount": 9,
+                                    "kind": "qpxexpress#segmentInfo",
+                                    "cabin": "COACH",
+                                    "bookingCode": "Y",
+                                    "marriedSegmentGroup": "2"
+                                }
+                            ],
+                            "duration": 1795
+                        }
+                    ]
+                }
+            ],
+            "data": {
+                "city": [
+                    {
+                        "kind": "qpxexpress#cityData",
+                        "code": "BCN",
+                        "name": "Barcelona"
+                    },
+                    {
+                        "kind": "qpxexpress#cityData",
+                        "code": "DUB",
+                        "name": "Dublin"
+                    },
+                    {
+                        "kind": "qpxexpress#cityData",
+                        "code": "LAX",
+                        "name": "Los Angeles"
+                    },
+                    {
+                        "kind": "qpxexpress#cityData",
+                        "code": "LON",
+                        "name": "London"
+                    }
+                ],
+                "aircraft": [
+                    {
+                        "kind": "qpxexpress#aircraftData",
+                        "code": "320",
+                        "name": "Airbus A320"
+                    },
+                    {
+                        "kind": "qpxexpress#aircraftData",
+                        "code": "32A",
+                        "name": "Airbus A320"
+                    },
+                    {
+                        "kind": "qpxexpress#aircraftData",
+                        "code": "332",
+                        "name": "Airbus A330"
+                    }
+                ],
+                "carrier": [
+                    {
+                        "kind": "qpxexpress#carrierData",
+                        "code": "BA",
+                        "name": "British Airways"
+                    }
+                ],
+                "kind": "qpxexpress#data",
+                "tax": [
+                    {
+                        "kind": "qpxexpress#taxData",
+                        "id": "XY",
+                        "name": "US Immigration Fee"
+                    },
+                    {
+                        "kind": "qpxexpress#taxData",
+                        "id": "UP_001",
+                        "name": "Ireland Passenger Charge"
+                    },
+                    {
+                        "kind": "qpxexpress#taxData",
+                        "id": "UQ_001",
+                        "name": "Ireland Inspection Pre Clearance Charge"
+                    },
+                    {
+                        "kind": "qpxexpress#taxData",
+                        "id": "UB_001",
+                        "name": "United Kingdom Passenger Service Charge Departures"
+                    },
+                    {
+                        "kind": "qpxexpress#taxData",
+                        "id": "QV_001",
+                        "name": "Spain Security Tax"
+                    },
+                    {
+                        "kind": "qpxexpress#taxData",
+                        "id": "US_002",
+                        "name": "US International Arrival Tax"
+                    },
+                    {
+                        "kind": "qpxexpress#taxData",
+                        "id": "XA",
+                        "name": "USDA APHIS Fee"
+                    },
+                    {
+                        "kind": "qpxexpress#taxData",
+                        "id": "OG_001",
+                        "name": "Spain Aviation Safety And Security Fee"
+                    },
+                    {
+                        "kind": "qpxexpress#taxData",
+                        "id": "YC",
+                        "name": "US Customs Fee"
+                    },
+                    {
+                        "kind": "qpxexpress#taxData",
+                        "id": "GB_001",
+                        "name": "United Kingdom Air Passenger Duty Apd"
+                    },
+                    {
+                        "kind": "qpxexpress#taxData",
+                        "id": "YQ_I",
+                        "name": "BA YQ surcharge"
+                    },
+                    {
+                        "kind": "qpxexpress#taxData",
+                        "id": "JD_001",
+                        "name": "Spain Departure Charge"
+                    }
+                ],
+                "airport": [
+                    {
+                        "kind": "qpxexpress#airportData",
+                        "code": "BCN",
+                        "city": "BCN",
+                        "name": "Barcelona"
+                    },
+                    {
+                        "kind": "qpxexpress#airportData",
+                        "code": "DUB",
+                        "city": "DUB",
+                        "name": "Dublin International"
+                    },
+                    {
+                        "kind": "qpxexpress#airportData",
+                        "code": "LAX",
+                        "city": "LAX",
+                        "name": "Los Angeles International"
+                    },
+                    {
+                        "kind": "qpxexpress#airportData",
+                        "code": "LTN",
+                        "city": "LON",
+                        "name": "London Luton"
+                    }
+                ]
+            },
+            "requestId": "vQVvmiaqlujoKdCHj0PWFU"
+        }
+    },
+    "request": {
+        "passengers": {
+            "adultCount": 1
+        },
+        "slice": [
+            {
+                "destination": "LAX",
+                "origin": "LTN",
+                "date": "2016-11-29"
+            }
+        ]
+    }
+}

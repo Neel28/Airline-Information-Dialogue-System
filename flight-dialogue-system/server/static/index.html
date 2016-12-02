@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="FIS">
+<head>
+    <meta charset="UTF-8">
+    <title>✈️ Flight Information System</title>
+    <link rel="stylesheet" href="static/style.css"/>
+    <script src="static/bower_components/socket.io-client/socket.io.js"></script>
+    <script src="static/bower_components/angular/angular.min.js"></script>
+    <script src="static/bower_components/moment/moment.js"></script>
+    <script src="static/app.js"></script>
+</head>
+<body ng-controller="ChatCtrl">
+<div id="sidebar">
+    <div class="info">
+        <h3>User State</h3>
+        <ul>
+            <li ng-repeat="(fieldname, field) in state">
+                <b>{{fieldname}}</b>
+                <table width="100%">
+                    <tr ng-repeat="pair in field">
+                        <td width="200">{{pair.value}}</td>
+                        <td align="right" class="score">{{pair.score}}</td>
+                    </tr>
+                </table>
+            </li>
+        </ul>
+        <p ng-if="statefeedback">
+            Has the User State been updated correctly?
+            <span class="feedback">
+                <a href="#" title="Yes" ng-click="stateUpdateFeedback($event, true)">
+                    👍
+                </a>
+                <a href="#" title="No" ng-click="stateUpdateFeedback($event, false)">
+                    👎
+                </a>
+            </span>
+        </p>
+        <p ng-if="!statefeedback && stateUpdateAccuracy">
+            User State update accuracy: {{stateUpdateAccuracy}}
+        </p>
+    </div>
+</div>
+<div id="main">
+<ol class="chat">
+    <li ng-repeat="entry in chat" ng-class="entry.partner">
+        <div class="avatar"></div>
+        <div class="msg" ng-if="entry.text || entry.lines">
+            <p ng-repeat="line in entry.lines">{{line}}</p>
+            <p ng-if="entry.text">{{entry.text}}</p>
+            <span ng-if="entry.partner == 'other' && entry.type == 'question'" class="feedback">
+                <a href="#" title="Good question">
+                    👍
+                </a>
+                <a href="#" title="Bad question">
+                    👎
+                </a>
+            </span>
+            <time>{{entry.time}}</time>
+        </div>
+        <div class="msg" ng-if="entry.image">
+            <p>Here are some aspects from various reviews on <b>{{entry.airport}}{{entry.airline}}</b></p>
+            <p class="wordclouds">
+                <span class="img neg-neg" ng-style="{'background-image':'url({{entry.image}})'}">
+                    <span class="label">Negative aspects in negative reviews</span>
+                </span>
+                <span class="img pos-neg" ng-style="{'background-image':'url({{entry.image}})'}">
+                    <span class="label">Positive aspects in negative reviews</span>
+                </span>
+                <span class="img neg-pos" ng-style="{'background-image':'url({{entry.image}})'}">
+                    <span class="label">Negative aspects in positive reviews</span>
+                </span>
+                <span class="img pos-pos" ng-style="{'background-image':'url({{entry.image}})'}">
+                    <span class="label">Positive aspects in positive reviews</span>
+                </span>
+            </p>
+            <br style="clear:both"/>
+            <time>{{entry.time}}</time>
+        </div>
+    </li>
+    <li ng-if="progress" class="other progress">
+        <div class="avatar"></div>
+        <div class="msg">
+            <p ng-repeat="line in progress.lines">{{line}}</p>
+            <p ng-if="progress.text">{{progress.text}}</p>
+            <time>{{progress.time}}</time>
+        </div>
+    </li>
+</ol>
+</div>
+
+<form ng-submit="send()">
+    <input ng-model="input" class="textarea" type="text" placeholder="Type here" />
+</form>
+
+</body>
+</html>

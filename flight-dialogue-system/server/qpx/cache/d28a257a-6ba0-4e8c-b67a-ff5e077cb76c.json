@@ -1,0 +1,24 @@
+{
+    "request": {
+        "passengers": {
+            "adultCount": 1
+        }, 
+        "slice": [
+            {
+                "date": "2016-12-09", 
+                "origin": "LDN", 
+                "destination": "AKR"
+            }
+        ]
+    }, 
+    "response": {
+        "kind": "qpxExpress#tripsSearch", 
+        "trips": {
+            "kind": "qpxexpress#tripOptions", 
+            "data": {
+                "kind": "qpxexpress#data"
+            }, 
+            "requestId": "eCKtMnRX6dz37TtH00PS7G"
+        }
+    }
+}

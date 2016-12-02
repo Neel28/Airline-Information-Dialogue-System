@@ -1,0 +1,24 @@
+{
+    "request": {
+        "passengers": {
+            "adultCount": 1
+        }, 
+        "slice": [
+            {
+                "date": "2016-12-09", 
+                "origin": "SMO", 
+                "destination": "LAS"
+            }
+        ]
+    }, 
+    "response": {
+        "kind": "qpxExpress#tripsSearch", 
+        "trips": {
+            "kind": "qpxexpress#tripOptions", 
+            "data": {
+                "kind": "qpxexpress#data"
+            }, 
+            "requestId": "9l2dlQVxSqHfHHL760PS7E"
+        }
+    }
+}

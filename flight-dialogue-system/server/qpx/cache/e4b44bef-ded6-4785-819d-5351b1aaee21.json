@@ -1,0 +1,24 @@
+{
+    "response": {
+        "trips": {
+            "data": {
+                "kind": "qpxexpress#data"
+            },
+            "kind": "qpxexpress#tripOptions",
+            "requestId": "Ju2zDa9BD08joOWeB0PSgo"
+        },
+        "kind": "qpxExpress#tripsSearch"
+    },
+    "request": {
+        "passengers": {
+            "adultCount": 1
+        },
+        "slice": [
+            {
+                "origin": "AUS",
+                "destination": "DBN",
+                "date": "2016-12-09"
+            }
+        ]
+    }
+}

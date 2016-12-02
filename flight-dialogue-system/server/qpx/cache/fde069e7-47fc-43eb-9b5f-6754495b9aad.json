@@ -1,0 +1,24 @@
+{
+    "response": {
+        "kind": "qpxExpress#tripsSearch",
+        "trips": {
+            "data": {
+                "kind": "qpxexpress#data"
+            },
+            "kind": "qpxexpress#tripOptions",
+            "requestId": "cLGGEK0n0MuFDXeMk0PRyS"
+        }
+    },
+    "request": {
+        "slice": [
+            {
+                "destination": "AMS",
+                "origin": "SMO",
+                "date": "2016-12-09"
+            }
+        ],
+        "passengers": {
+            "adultCount": 1
+        }
+    }
+}

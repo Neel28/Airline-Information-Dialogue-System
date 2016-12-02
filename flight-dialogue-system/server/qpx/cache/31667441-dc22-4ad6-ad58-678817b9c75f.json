@@ -1,0 +1,24 @@
+{
+    "request": {
+        "slice": [
+            {
+                "date": "2016-12-09",
+                "origin": "LAS",
+                "destination": "LTN"
+            }
+        ],
+        "passengers": {
+            "adultCount": 1
+        }
+    },
+    "response": {
+        "trips": {
+            "data": {
+                "kind": "qpxexpress#data"
+            },
+            "kind": "qpxexpress#tripOptions",
+            "requestId": "Iz9MzC96dY0EKcsVE0PW2Q"
+        },
+        "kind": "qpxExpress#tripsSearch"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "response": {
+        "kind": "qpxExpress#tripsSearch",
+        "trips": {
+            "kind": "qpxexpress#tripOptions",
+            "data": {
+                "kind": "qpxexpress#data"
+            },
+            "requestId": "NEAQB8SDniPdbg7DK0PWMn"
+        }
+    },
+    "request": {
+        "slice": [
+            {
+                "origin": "TXL",
+                "date": "2016-11-28",
+                "destination": "CKL"
+            }
+        ],
+        "passengers": {
+            "adultCount": 1
+        }
+    }
+}

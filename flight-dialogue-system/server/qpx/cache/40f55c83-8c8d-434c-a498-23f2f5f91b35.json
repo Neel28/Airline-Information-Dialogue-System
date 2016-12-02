@@ -1,0 +1,24 @@
+{
+    "response": {
+        "trips": {
+            "data": {
+                "kind": "qpxexpress#data"
+            },
+            "requestId": "Rr4smsNdtebhMQiaz0PRQD",
+            "kind": "qpxexpress#tripOptions"
+        },
+        "kind": "qpxExpress#tripsSearch"
+    },
+    "request": {
+        "slice": [
+            {
+                "date": "2016-12-09",
+                "destination": "HAM",
+                "origin": "SMO"
+            }
+        ],
+        "passengers": {
+            "adultCount": 1
+        }
+    }
+}

@@ -1,0 +1,528 @@
+{
+    "response": {
+        "kind": "qpxExpress#tripsSearch",
+        "trips": {
+            "kind": "qpxexpress#tripOptions",
+            "tripOption": [
+                {
+                    "kind": "qpxexpress#tripOption",
+                    "id": "5DjBWwxiUW8O5IvvjwAzzH001",
+                    "slice": [
+                        {
+                            "kind": "qpxexpress#sliceInfo",
+                            "segment": [
+                                {
+                                    "bookingCode": "T",
+                                    "cabin": "COACH",
+                                    "bookingCodeCount": 9,
+                                    "marriedSegmentGroup": "0",
+                                    "duration": 129,
+                                    "connectionDuration": 120,
+                                    "kind": "qpxexpress#segmentInfo",
+                                    "id": "GwlZANtwvb-uvZ+D",
+                                    "flight": {
+                                        "carrier": "UA",
+                                        "number": "3672"
+                                    },
+                                    "leg": [
+                                        {
+                                            "operatingDisclosure": "OPERATED BY REPUBLIC AIRLINES DBA UNITED EXPRESS",
+                                            "originTerminal": "N",
+                                            "arrivalTime": "2016-12-01T14:45-06:00",
+                                            "mileage": 606,
+                                            "departureTime": "2016-12-01T13:36-05:00",
+                                            "aircraft": "E70",
+                                            "duration": 129,
+                                            "secure": true,
+                                            "destinationTerminal": "2",
+                                            "meal": "Food and Beverages for Purchase",
+                                            "kind": "qpxexpress#legInfo",
+                                            "id": "LrG2J2RY0kXeWAuC",
+                                            "destination": "ORD",
+                                            "origin": "ATL"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bookingCode": "S",
+                                    "cabin": "COACH",
+                                    "bookingCodeCount": 3,
+                                    "marriedSegmentGroup": "1",
+                                    "duration": 281,
+                                    "connectionDuration": 134,
+                                    "kind": "qpxexpress#segmentInfo",
+                                    "id": "GLiyPeMj7QfkLlsL",
+                                    "flight": {
+                                        "carrier": "UA",
+                                        "number": "1641"
+                                    },
+                                    "leg": [
+                                        {
+                                            "originTerminal": "1",
+                                            "arrivalTime": "2016-12-01T19:26-08:00",
+                                            "mileage": 1715,
+                                            "departureTime": "2016-12-01T16:45-06:00",
+                                            "aircraft": "319",
+                                            "duration": 281,
+                                            "secure": true,
+                                            "meal": "Food for Purchase",
+                                            "kind": "qpxexpress#legInfo",
+                                            "id": "LdlTHp00fbSmyPjD",
+                                            "onTimePerformance": 70,
+                                            "destination": "SEA",
+                                            "origin": "ORD"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bookingCode": "S",
+                                    "cabin": "COACH",
+                                    "bookingCodeCount": 2,
+                                    "marriedSegmentGroup": "2",
+                                    "duration": 320,
+                                    "kind": "qpxexpress#segmentInfo",
+                                    "id": "G1bWkhIAjqCYrhqm",
+                                    "flight": {
+                                        "carrier": "AS",
+                                        "number": "18"
+                                    },
+                                    "leg": [
+                                        {
+                                            "arrivalTime": "2016-12-02T06:00-05:00",
+                                            "mileage": 2414,
+                                            "departureTime": "2016-12-01T21:40-08:00",
+                                            "aircraft": "739",
+                                            "duration": 320,
+                                            "secure": true,
+                                            "destinationTerminal": "8",
+                                            "meal": "Food for Purchase",
+                                            "kind": "qpxexpress#legInfo",
+                                            "id": "LREUhh+H+ZU9PnHC",
+                                            "onTimePerformance": 86,
+                                            "destination": "JFK",
+                                            "origin": "SEA"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "duration": 984
+                        }
+                    ],
+                    "saleTotal": "USD897.60",
+                    "pricing": [
+                        {
+                            "passengers": {
+                                "kind": "qpxexpress#passengerCounts",
+                                "adultCount": 1
+                            },
+                            "fareCalculation": "ATL UA X/CHI 92.09TAA0AWEN UA X/SEA 198.14SAA0ACEN AS JFK 520.00SASVN5 USD 810.23 END ZP ATL ORD SEA XT 60.77US 12.00ZP 5.60AY 9.00XF ATL4.50 ORD4.50",
+                            "ptc": "ADT",
+                            "saleFareTotal": "USD810.23",
+                            "tax": [
+                                {
+                                    "country": "US",
+                                    "kind": "qpxexpress#taxInfo",
+                                    "id": "US_001",
+                                    "chargeType": "GOVERNMENT",
+                                    "salePrice": "USD60.77",
+                                    "code": "US"
+                                },
+                                {
+                                    "country": "US",
+                                    "kind": "qpxexpress#taxInfo",
+                                    "id": "AY_001",
+                                    "chargeType": "GOVERNMENT",
+                                    "salePrice": "USD5.60",
+                                    "code": "AY"
+                                },
+                                {
+                                    "country": "US",
+                                    "kind": "qpxexpress#taxInfo",
+                                    "id": "XF",
+                                    "chargeType": "GOVERNMENT",
+                                    "salePrice": "USD9.00",
+                                    "code": "XF"
+                                },
+                                {
+                                    "country": "US",
+                                    "kind": "qpxexpress#taxInfo",
+                                    "id": "ZP",
+                                    "chargeType": "GOVERNMENT",
+                                    "salePrice": "USD12.00",
+                                    "code": "ZP"
+                                }
+                            ],
+                            "fare": [
+                                {
+                                    "carrier": "UA",
+                                    "kind": "qpxexpress#fareInfo",
+                                    "id": "ADTiaWB6Ke0Gs9HqRb8ScDStYaZWHXeldjBWKA65nRQ2",
+                                    "basisCode": "TAA0AWEN",
+                                    "destination": "CHI",
+                                    "origin": "ATL"
+                                },
+                                {
+                                    "carrier": "UA",
+                                    "kind": "qpxexpress#fareInfo",
+                                    "id": "AQYEEZkiC8l/ed13ZNvu8X7MBX1Z5XOiSUfzxPr+4pck",
+                                    "basisCode": "SAA0ACEN",
+                                    "destination": "SEA",
+                                    "origin": "CHI"
+                                },
+                                {
+                                    "carrier": "AS",
+                                    "kind": "qpxexpress#fareInfo",
+                                    "id": "ANEeNRO/Rft0GGpybT+qU5PfAlKIMZ3X7C/0z9zLz+Sg",
+                                    "basisCode": "SASVN5",
+                                    "destination": "NYC",
+                                    "origin": "SEA"
+                                }
+                            ],
+                            "latestTicketingTime": "2016-11-27T23:59-05:00",
+                            "saleTotal": "USD897.60",
+                            "baseFareTotal": "USD810.23",
+                            "kind": "qpxexpress#pricingInfo",
+                            "saleTaxTotal": "USD87.37",
+                            "segmentPricing": [
+                                {
+                                    "kind": "qpxexpress#segmentPricing",
+                                    "fareId": "AQYEEZkiC8l/ed13ZNvu8X7MBX1Z5XOiSUfzxPr+4pck",
+                                    "segmentId": "GLiyPeMj7QfkLlsL"
+                                },
+                                {
+                                    "kind": "qpxexpress#segmentPricing",
+                                    "fareId": "ANEeNRO/Rft0GGpybT+qU5PfAlKIMZ3X7C/0z9zLz+Sg",
+                                    "segmentId": "G1bWkhIAjqCYrhqm"
+                                },
+                                {
+                                    "kind": "qpxexpress#segmentPricing",
+                                    "fareId": "ADTiaWB6Ke0Gs9HqRb8ScDStYaZWHXeldjBWKA65nRQ2",
+                                    "segmentId": "GwlZANtwvb-uvZ+D"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "kind": "qpxexpress#tripOption",
+                    "id": "5DjBWwxiUW8O5IvvjwAzzH002",
+                    "slice": [
+                        {
+                            "kind": "qpxexpress#sliceInfo",
+                            "segment": [
+                                {
+                                    "bookingCode": "T",
+                                    "cabin": "COACH",
+                                    "bookingCodeCount": 9,
+                                    "marriedSegmentGroup": "0",
+                                    "duration": 127,
+                                    "connectionDuration": 182,
+                                    "kind": "qpxexpress#segmentInfo",
+                                    "id": "GWPJ7SKshzWQqznY",
+                                    "flight": {
+                                        "carrier": "UA",
+                                        "number": "4464"
+                                    },
+                                    "leg": [
+                                        {
+                                            "operatingDisclosure": "OPERATED BY GOJET AIRLINES DBA UNITED EXPRESS",
+                                            "originTerminal": "N",
+                                            "arrivalTime": "2016-12-01T13:43-06:00",
+                                            "mileage": 606,
+                                            "departureTime": "2016-12-01T12:36-05:00",
+                                            "aircraft": "CR7",
+                                            "duration": 127,
+                                            "secure": true,
+                                            "destinationTerminal": "1",
+                                            "meal": "Food and Beverages for Purchase",
+                                            "kind": "qpxexpress#legInfo",
+                                            "id": "LePg36sCLiiVl+3q",
+                                            "destination": "ORD",
+                                            "origin": "ATL"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bookingCode": "S",
+                                    "cabin": "COACH",
+                                    "bookingCodeCount": 3,
+                                    "marriedSegmentGroup": "1",
+                                    "duration": 281,
+                                    "connectionDuration": 134,
+                                    "kind": "qpxexpress#segmentInfo",
+                                    "id": "GLiyPeMj7QfkLlsL",
+                                    "flight": {
+                                        "carrier": "UA",
+                                        "number": "1641"
+                                    },
+                                    "leg": [
+                                        {
+                                            "originTerminal": "1",
+                                            "arrivalTime": "2016-12-01T19:26-08:00",
+                                            "mileage": 1715,
+                                            "departureTime": "2016-12-01T16:45-06:00",
+                                            "aircraft": "319",
+                                            "duration": 281,
+                                            "secure": true,
+                                            "meal": "Food for Purchase",
+                                            "kind": "qpxexpress#legInfo",
+                                            "id": "LdlTHp00fbSmyPjD",
+                                            "onTimePerformance": 70,
+                                            "destination": "SEA",
+                                            "origin": "ORD"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bookingCode": "S",
+                                    "cabin": "COACH",
+                                    "bookingCodeCount": 2,
+                                    "marriedSegmentGroup": "2",
+                                    "duration": 320,
+                                    "kind": "qpxexpress#segmentInfo",
+                                    "id": "G1bWkhIAjqCYrhqm",
+                                    "flight": {
+                                        "carrier": "AS",
+                                        "number": "18"
+                                    },
+                                    "leg": [
+                                        {
+                                            "arrivalTime": "2016-12-02T06:00-05:00",
+                                            "mileage": 2414,
+                                            "departureTime": "2016-12-01T21:40-08:00",
+                                            "aircraft": "739",
+                                            "duration": 320,
+                                            "secure": true,
+                                            "destinationTerminal": "8",
+                                            "meal": "Food for Purchase",
+                                            "kind": "qpxexpress#legInfo",
+                                            "id": "LREUhh+H+ZU9PnHC",
+                                            "onTimePerformance": 86,
+                                            "destination": "JFK",
+                                            "origin": "SEA"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "duration": 1044
+                        }
+                    ],
+                    "saleTotal": "USD897.60",
+                    "pricing": [
+                        {
+                            "passengers": {
+                                "kind": "qpxexpress#passengerCounts",
+                                "adultCount": 1
+                            },
+                            "fareCalculation": "ATL UA X/CHI 92.09TAA0AWEN UA X/SEA 198.14SAA0ACEN AS JFK 520.00SASVN5 USD 810.23 END ZP ATL ORD SEA XT 60.77US 12.00ZP 5.60AY 9.00XF ATL4.50 ORD4.50",
+                            "ptc": "ADT",
+                            "saleFareTotal": "USD810.23",
+                            "tax": [
+                                {
+                                    "country": "US",
+                                    "kind": "qpxexpress#taxInfo",
+                                    "id": "US_001",
+                                    "chargeType": "GOVERNMENT",
+                                    "salePrice": "USD60.77",
+                                    "code": "US"
+                                },
+                                {
+                                    "country": "US",
+                                    "kind": "qpxexpress#taxInfo",
+                                    "id": "AY_001",
+                                    "chargeType": "GOVERNMENT",
+                                    "salePrice": "USD5.60",
+                                    "code": "AY"
+                                },
+                                {
+                                    "country": "US",
+                                    "kind": "qpxexpress#taxInfo",
+                                    "id": "XF",
+                                    "chargeType": "GOVERNMENT",
+                                    "salePrice": "USD9.00",
+                                    "code": "XF"
+                                },
+                                {
+                                    "country": "US",
+                                    "kind": "qpxexpress#taxInfo",
+                                    "id": "ZP",
+                                    "chargeType": "GOVERNMENT",
+                                    "salePrice": "USD12.00",
+                                    "code": "ZP"
+                                }
+                            ],
+                            "fare": [
+                                {
+                                    "carrier": "UA",
+                                    "kind": "qpxexpress#fareInfo",
+                                    "id": "ADTiaWB6Ke0Gs9HqRb8ScDStYaZWHXeldjBWKA65nRQ2",
+                                    "basisCode": "TAA0AWEN",
+                                    "destination": "CHI",
+                                    "origin": "ATL"
+                                },
+                                {
+                                    "carrier": "UA",
+                                    "kind": "qpxexpress#fareInfo",
+                                    "id": "AQYEEZkiC8l/ed13ZNvu8X7MBX1Z5XOiSUfzxPr+4pck",
+                                    "basisCode": "SAA0ACEN",
+                                    "destination": "SEA",
+                                    "origin": "CHI"
+                                },
+                                {
+                                    "carrier": "AS",
+                                    "kind": "qpxexpress#fareInfo",
+                                    "id": "ANEeNRO/Rft0GGpybT+qU5PfAlKIMZ3X7C/0z9zLz+Sg",
+                                    "basisCode": "SASVN5",
+                                    "destination": "NYC",
+                                    "origin": "SEA"
+                                }
+                            ],
+                            "latestTicketingTime": "2016-11-27T23:59-05:00",
+                            "saleTotal": "USD897.60",
+                            "baseFareTotal": "USD810.23",
+                            "kind": "qpxexpress#pricingInfo",
+                            "saleTaxTotal": "USD87.37",
+                            "segmentPricing": [
+                                {
+                                    "kind": "qpxexpress#segmentPricing",
+                                    "fareId": "ADTiaWB6Ke0Gs9HqRb8ScDStYaZWHXeldjBWKA65nRQ2",
+                                    "segmentId": "GWPJ7SKshzWQqznY"
+                                },
+                                {
+                                    "kind": "qpxexpress#segmentPricing",
+                                    "fareId": "AQYEEZkiC8l/ed13ZNvu8X7MBX1Z5XOiSUfzxPr+4pck",
+                                    "segmentId": "GLiyPeMj7QfkLlsL"
+                                },
+                                {
+                                    "kind": "qpxexpress#segmentPricing",
+                                    "fareId": "ANEeNRO/Rft0GGpybT+qU5PfAlKIMZ3X7C/0z9zLz+Sg",
+                                    "segmentId": "G1bWkhIAjqCYrhqm"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "data": {
+                "airport": [
+                    {
+                        "kind": "qpxexpress#airportData",
+                        "city": "ATL",
+                        "name": "Atlanta Hartsfield-Jackson International",
+                        "code": "ATL"
+                    },
+                    {
+                        "kind": "qpxexpress#airportData",
+                        "city": "NYC",
+                        "name": "New York John F Kennedy International",
+                        "code": "JFK"
+                    },
+                    {
+                        "kind": "qpxexpress#airportData",
+                        "city": "CHI",
+                        "name": "Chicago O'Hare",
+                        "code": "ORD"
+                    },
+                    {
+                        "kind": "qpxexpress#airportData",
+                        "city": "SEA",
+                        "name": "Seattle/Tacoma Sea/Tac",
+                        "code": "SEA"
+                    }
+                ],
+                "carrier": [
+                    {
+                        "kind": "qpxexpress#carrierData",
+                        "name": "Alaska Airlines Inc.",
+                        "code": "AS"
+                    },
+                    {
+                        "kind": "qpxexpress#carrierData",
+                        "name": "United Airlines, Inc.",
+                        "code": "UA"
+                    }
+                ],
+                "city": [
+                    {
+                        "kind": "qpxexpress#cityData",
+                        "name": "Atlanta",
+                        "code": "ATL"
+                    },
+                    {
+                        "kind": "qpxexpress#cityData",
+                        "name": "Chicago",
+                        "code": "CHI"
+                    },
+                    {
+                        "kind": "qpxexpress#cityData",
+                        "name": "New York",
+                        "code": "NYC"
+                    },
+                    {
+                        "kind": "qpxexpress#cityData",
+                        "name": "Seattle",
+                        "code": "SEA"
+                    }
+                ],
+                "kind": "qpxexpress#data",
+                "aircraft": [
+                    {
+                        "kind": "qpxexpress#aircraftData",
+                        "name": "Airbus A319",
+                        "code": "319"
+                    },
+                    {
+                        "kind": "qpxexpress#aircraftData",
+                        "name": "Boeing 737",
+                        "code": "739"
+                    },
+                    {
+                        "kind": "qpxexpress#aircraftData",
+                        "name": "Canadair RJ 700",
+                        "code": "CR7"
+                    },
+                    {
+                        "kind": "qpxexpress#aircraftData",
+                        "name": "Embraer RJ-170",
+                        "code": "E70"
+                    }
+                ],
+                "tax": [
+                    {
+                        "kind": "qpxexpress#taxData",
+                        "id": "ZP",
+                        "name": "US Flight Segment Tax"
+                    },
+                    {
+                        "kind": "qpxexpress#taxData",
+                        "id": "AY_001",
+                        "name": "US September 11th Security Fee"
+                    },
+                    {
+                        "kind": "qpxexpress#taxData",
+                        "id": "US_001",
+                        "name": "US Transportation Tax"
+                    },
+                    {
+                        "kind": "qpxexpress#taxData",
+                        "id": "XF",
+                        "name": "US Passenger Facility Charge"
+                    }
+                ]
+            },
+            "requestId": "msA9esTTImiDVDbnn0PWJf"
+        }
+    },
+    "request": {
+        "passengers": {
+            "adultCount": 1
+        },
+        "slice": [
+            {
+                "destination": "JFK",
+                "date": "2016-12-01",
+                "origin": "ATL"
+            }
+        ]
+    }
+}

@@ -1,0 +1,370 @@
+('other', 3629)
+('british-airways', 1229)
+('united-airlines', 994)
+('spirit-airlines', 993)
+('emirates', 906)
+('lufthansa', 766)
+('qantas-airways', 760)
+('jet-airways', 736)
+('american-airlines', 730)
+('air-canada-rouge', 717)
+('ryanair', 663)
+('qatar-airways', 616)
+('etihad-airways', 616)
+('cathay-pacific-airways', 605)
+('air-canada', 579)
+('malaysia-airlines', 577)
+('virgin-atlantic-airways', 575)
+('turkish-airlines', 556)
+('singapore-airlines', 553)
+('delta-air-lines', 531)
+('air-france', 519)
+('allegiant-air', 485)
+('us-airways', 465)
+('thai-airways', 454)
+('thomson-airways', 454)
+('klm-royal-dutch-airlines', 452)
+('norwegian', 452)
+('easyjet', 449)
+('aer-lingus', 442)
+('thomas-cook-airlines', 438)
+('china-southern-airlines', 427)
+('swiss-international-air-lines', 420)
+('frontier-airlines', 417)
+('iberia', 416)
+('finnair', 407)
+('tap-portugal', 401)
+('jetstar-airways', 400)
+('air-new-zealand', 399)
+('monarch-airlines', 398)
+('sunwing-airlines', 394)
+('garuda-indonesia', 385)
+('southwest-airlines', 379)
+('flybe', 378)
+('virgin-australia', 375)
+('korean-air', 357)
+('air-india', 357)
+('jet2-com', 356)
+('asiana-airlines', 349)
+('alitalia', 343)
+('air-transat', 339)
+('eva-air', 337)
+('sas-scandinavian-airlines', 335)
+('srilankan-airlines', 325)
+('china-eastern-airlines', 317)
+('austrian-airlines', 311)
+('airasia', 309)
+('air-berlin', 309)
+('vietnam-airlines', 306)
+('ana-all-nippon-airways', 304)
+('vueling-airlines', 303)
+('philippine-airlines', 302)
+('tigerair', 298)
+('south-african-airways', 290)
+('icelandair', 286)
+('lan-airlines', 280)
+('royal-brunei-airlines', 275)
+('wizz-air', 273)
+('aeroflot-russian-airlines', 263)
+('airasia-x', 256)
+('air-china', 248)
+('aegean-airlines', 246)
+('alaska-airlines', 242)
+('china-airlines', 241)
+('hawaiian-airlines', 241)
+('jetblue-airways', 238)
+('egyptair', 236)
+('virgin-america', 228)
+('brussels-airlines', 226)
+('bangkok-airways', 225)
+('ethiopian-airlines', 220)
+('tam-airlines', 205)
+('japan-airlines', 203)
+('oman-air', 193)
+('scoot', 187)
+('fiji-airways', 186)
+('continental-airlines', 182)
+('gulf-air', 178)
+('aerolineas-argentinas', 173)
+('kenya-airways', 171)
+('air-europa', 166)
+('royal-jordanian-airlines', 165)
+('lot-polish-airlines', 159)
+('royal-air-maroc', 157)
+('condor-airlines', 156)
+('bmi-british-midland-international', 150)
+('avianca', 145)
+('aeromexico', 141)
+('el-al-israel-airlines', 135)
+('dragonair', 134)
+('kuwait-airways', 133)
+('pegasus-airlines', 132)
+('saudi-arabian-airlines', 129)
+('copa-airlines', 127)
+('silkair', 120)
+('onur-air', 117)
+('germanwings', 117)
+('porter-airlines', 113)
+('air-mauritius', 113)
+('air-astana', 111)
+('indigo-airlines', 109)
+('airbaltic', 106)
+('csa-czech-airlines', 103)
+('cebu-pacific', 103)
+('ukraine-international-airlines', 101)
+('pia-pakistan-international-airlines', 100)
+('canjet-airlines', 99)
+('hainan-airlines', 91)
+('air-malta', 86)
+('tarom-romanian-airlines', 81)
+('jetstar-asia', 79)
+('taca', 78)
+('meridiana', 75)
+('american-eagle', 75)
+('liat', 74)
+('westjet', 72)
+('sun-country-airlines', 70)
+('qantaslink', 69)
+('air-serbia', 69)
+('cityjet', 68)
+('cubana-airlines', 65)
+('air-tahiti-nui', 61)
+('spicejet', 61)
+('bulgaria-air', 60)
+('hong-kong-airlines', 59)
+('lion-air', 59)
+('transavia', 59)
+('flydubai', 58)
+('shanghai-airlines', 58)
+('olympic-air', 55)
+('adria-airways', 53)
+('sata-internacional', 53)
+('openskies', 51)
+('croatia-airlines', 51)
+('transaero-airlines', 51)
+('sata-air-azores', 50)
+---------------------------------------------------
+
+OTHERS:
+
+sol-lineas-aereas
+flynas
+interjet
+yemenia
+cape-air
+regent-airways
+air-north-yukons-airline
+goair
+lao-airlines
+buraq
+air-blue
+bluexpress
+air-vanuata
+air-madagascar
+nok-air
+carpatair
+avior-airlines
+boliviana-de-aviacin
+safi-airways
+air-niugini
+avianca-brasil
+utair-aviation
+wow-air
+air-seychelles
+taag-angola-airlines
+malm-aviation
+dniproavia
+tropic-air-belize
+star-per
+atlasjet-airlines
+mango
+sichuan-airlines
+orient-thai
+thomas-cook-airlines-scandinavia
+xl-airways-france
+spring
+intersky
+arik-air
+skybus
+far-eastern
+skywest-airlines
+central-mountain-air
+bhutan-airlines
+air-labrador
+jazeera-airways
+air-caraibes
+syrianair
+sa-express
+eritrean-airlines
+druk-air
+hop
+air-dolomiti
+insel-air
+aerogal-aerolineas-galapagos
+air-namibia
+bmi-regional
+azerbaijan-airlines
+rwandair
+eurowings
+blue-air
+lam-mozambique-airlines
+cambodia-angkor-airlines
+comair
+canadian-north
+air-koryo
+starflyer
+thomas-cook-belgium-airlines-customer
+caribbean-airlines
+buddha-air
+berjaya-air
+air-arabia
+aerocaribbean
+novair
+small-planet-airlines-uab
+middle-east-airlines
+vlm-airlines
+montenegro-airlines
+american-express-centurion
+shandong-airlines
+shenzhen-airlines
+transasia-airways
+s7-siberia-airlines
+kish-air
+la-compagnie
+air-algerie
+air-macau
+airnorth
+volaris
+rossiya-airlines
+georgian-airways
+air-austral
+air-nostrum
+niki
+darwin
+horizon-air
+jeju-air
+air-india-express
+air-bagan
+tunisair
+libyan-airlines
+nepal-airlines
+beijing-capital-airlines
+air-botswana
+air-zimbabwe
+nextjet
+china-united-airlines
+corendon-airlines
+jin-air
+mokulele-airlines
+azul-linhas-aereas-brasileiras
+jetstar-pacific
+eastarjet
+jazz
+santa-barbara
+luxair
+pal-express
+volotea
+malindo-air
+vanilla-air
+air-greenland
+island
+passaredo-linhas-aereas
+air-cairo-user
+aigle-azur
+cayman-airways
+blue-islands
+sriwijaya-air
+anadolujet
+shaheen-air
+air-memphis
+turkmenistan-airlines
+xiamen-airlines
+air-malawi
+sun-express
+phuket-air
+air-moldova
+eastern-airways
+firefly
+lan-peru
+estonian-air
+taca-regional
+air-corsica
+aurigny-air
+blue-panorama-airlines
+tame
+arkefly
+binter-canarias
+aircalin
+somon-air
+kam-air
+airasia-zest
+conviasa
+martinair
+okay-airways
+skymark-airlines
+felix-airways
+uzbekistan-airways
+henan-airlines
+myanmar-airways
+ural-airlines
+air-busan
+tianjin-airlines
+aerosur
+israir-airlines
+helvetic
+thai-airasia
+karthago-airlines
+blue1
+sky-express-airlines
+loch-lomond-seaplanes
+vietjetair
+corsair
+smartwings
+danish-air
+jetairfly
+surinam-airways
+mea-middle-east-airlines
+loganair
+juneyao-airlines
+edelweiss-air
+regional-express
+petroleum-air-services
+biman-bangladesh
+arkia-israeli
+hong-kong
+asky-airlines
+priority-pass
+fly540-com
+peruvian-airlines
+era-aviation
+nordavia
+moldavian-airlines
+lucky-air
+atlantic-airways
+yangon-airways
+bh-airlines
+sky-airline
+europe-airpost
+ba-cityflyer
+iran-air
+peach-aviation
+lan-colombia
+bahamasair
+tajikistan-airlines
+afriqiyah-airways
+air-mediterranee
+yakutia-airlines
+sudan-airways
+kulula
+mahan-air
+free-bird
+tacv-cabo
+nouvelair
+belavia
+solomon-airlines
+miat-mongolian
+gol
+wideroe
+iran-aseman
+tuifly
+precision

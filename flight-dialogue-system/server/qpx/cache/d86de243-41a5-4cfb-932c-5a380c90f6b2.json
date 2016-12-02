@@ -1,0 +1,24 @@
+{
+    "request": {
+        "passengers": {
+            "adultCount": 1
+        }, 
+        "slice": [
+            {
+                "date": "2016-12-09", 
+                "origin": "LAX", 
+                "destination": "HST"
+            }
+        ]
+    }, 
+    "response": {
+        "kind": "qpxExpress#tripsSearch", 
+        "trips": {
+            "kind": "qpxexpress#tripOptions", 
+            "data": {
+                "kind": "qpxexpress#data"
+            }, 
+            "requestId": "frBD0nbdtp3qFdCFE0PSTl"
+        }
+    }
+}

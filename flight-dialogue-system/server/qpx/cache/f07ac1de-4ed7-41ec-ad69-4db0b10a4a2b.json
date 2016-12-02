@@ -1,0 +1,24 @@
+{
+    "request": {
+        "slice": [
+            {
+                "origin": "SMO",
+                "date": "2016-12-09",
+                "destination": "JFK"
+            }
+        ],
+        "passengers": {
+            "adultCount": 1
+        }
+    },
+    "response": {
+        "trips": {
+            "data": {
+                "kind": "qpxexpress#data"
+            },
+            "requestId": "fVScUbAbXYc8eu7Gp0PWKq",
+            "kind": "qpxexpress#tripOptions"
+        },
+        "kind": "qpxExpress#tripsSearch"
+    }
+}
